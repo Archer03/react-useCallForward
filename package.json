@@ -1,0 +1,19 @@
+{
+  "name": "use-mutable-context",
+  "version": "1.0.0",
+  "description": "A react hook, helps to pass the latest version of state to callback after setState",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archer03/use-mutable-context.git"
+  },
+  "author": "grant zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Archer03/use-mutable-context/issues"
+  },
+  "homepage": "https://github.com/Archer03/use-mutable-context#readme"
+}
