@@ -4,11 +4,10 @@ A react hook, helps to pass the latest version of state to callback after setSta
 Without useEffect.
 
 In fact useEffect is the most suitable way to listen state change.\
-And to some degree, useEffect is more pure function program oriented.
 
 But sometimes useEffect is not intuitive, it separates the logic of event flow.
 
-## problem scene
+## problem background
 
 ```javascript
 const Foo = () => {
@@ -20,6 +19,14 @@ const Foo = () => {
   }}>foo{count}</div>
 }
 ```
+
+I know that we can just 'console.log(count + 1)', it will be correct and easy.
+But at the same time, it has coupling now.
+Even you can just have 'const newCount = count + 1' to avoid duplicate calculation.
+But newCount should be delivered to different place. So there is still coupling.
+To be honest, maybe it's the best way to handle this in react.
+What can we do? Maybe nothing.
+But just try to think more, just have a fun.
 
 ### useEffect way
 
